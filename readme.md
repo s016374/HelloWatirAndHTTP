@@ -1,4 +1,1 @@
-* testing using ruby
-** cucumber
-** API testing
-** UI testing
+* API and UI testing using cucumber
