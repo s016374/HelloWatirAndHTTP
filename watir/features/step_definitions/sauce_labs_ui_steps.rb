@@ -7,7 +7,7 @@ Given(/^open browser$/) do
     version: "45"
   }
   driver = Selenium::WebDriver.for(:remote,
-      url: "https://SamDgg:3a1a4e3b-0c5d-4b1d-a8e6-4fefb422557a@ondemand.saucelabs.com:443/wd/hub",
+      url: "https://YOUR_SAUCE_USERNAME:YOUR_SAUCE_ACCESS_KEY@ondemand.saucelabs.com:443/wd/hub",
       desired_capabilities: caps)
 
   driver.get('http://saucelabs.com/test/guinea-pig')
