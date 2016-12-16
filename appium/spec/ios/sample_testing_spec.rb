@@ -32,7 +32,7 @@ RSpec.describe 'iOS app testing' do
       $driver.start_driver
     end
 
-    it 'click a button then Back one by one' do
+    xit 'click a button then Back one by one' do
       cells = $driver.texts('uses')
       cells.each do |cell|
         cell.click
@@ -41,7 +41,7 @@ RSpec.describe 'iOS app testing' do
     end
 
     it 'using Appium.promote_appium_methods to get Page object' do
-      Appium.promote_appium_methods RSpec::ExampleGroups::IOSAppTesting
+      Appium.promote_appium_methods RSpec::Core::ExampleGroup
       cells = texts('uses')
       cells.each do |cell|
         cell.click
