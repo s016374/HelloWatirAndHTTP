@@ -1,0 +1,1 @@
+curl -u SamDgg:3a1a4e3b-0c5d-4b1d-a8e6-4fefb422557a -X POST -H "Content-Type: application/octet-stream" https://saucelabs.com/rest/v1/storage/SamDgg/UICatalog6.1.app.zip?overwrite=true --data-binary @/Users/s016374/ruby/appium/tutorial/projects/ruby_ios/UICatalog6.1.app.zip
